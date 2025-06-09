@@ -1,0 +1,147 @@
+.App {
+    text-align: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.App-header {
+    background-color: #1E88E5;
+    padding: 2rem;
+    color: white;
+}
+
+.App-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.description {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    max-width: 800px;
+    margin: 1rem auto;
+}
+
+.App-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.controls {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.control-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.control-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.control-group select,
+.control-group input[type="range"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.model-description {
+    margin-top: 0.5rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.recommend-button {
+    background-color: #1E88E5;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.recommend-button:hover {
+    background-color: #1976D2;
+}
+
+.recommend-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.error {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.recommendations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.movie-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+.movie-card h3 {
+    color: #1E88E5;
+    margin: 0 0 0.5rem 0;
+}
+
+.genre {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.movie-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.rating {
+    color: #FFC107;
+    font-weight: 500;
+}
+
+.similarity {
+    color: #4CAF50;
+    font-weight: 500;
+}
+
+.overview {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+} 

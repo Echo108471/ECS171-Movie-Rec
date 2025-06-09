@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "movie-recommender"
+version = "0.1.0"
+description = "Movie recommendation system with multiple models"
+authors = ["Brayan Torres"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.0.2"
+flask-cors = "^4.0.0"
+pandas = "^2.2.1"
+sentence-transformers = "^2.2.2"
+torch = "^2.2.0"
+transformers = "^4.37.2"
+huggingface-hub = "^0.19.4"
+python-dotenv = "^1.0.1"
+scikit-learn = "^1.4.0"
+numpy = "^1.26.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^24.1.0"
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
